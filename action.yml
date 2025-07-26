@@ -1,0 +1,11 @@
+name: 'Pull Request Landing'
+description: 'Adds a comment to a pull request when it is opened.'
+author: 'zunalita-archives'
+inputs:
+  comment:
+    description: 'The comment text to post'
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'index.js'
